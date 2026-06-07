@@ -1,0 +1,12 @@
+experiment,value,best_val_acc,time_s
+batch_size,16,0.442,8.3
+batch_size,32,0.438,6.4
+batch_size,64,0.476,8.3
+learning_rate,0.0001,0.399,6.4
+learning_rate,0.001,0.469,6.4
+learning_rate,0.01,0.109,6.3
+dropout,0.3,0.49,6.3
+dropout,0.5,0.491,6.4
+dropout,0.8,0.405,6.4
+extra_conv_block,False,0.458,6.3
+extra_conv_block,True,0.45,7.4
